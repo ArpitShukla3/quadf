@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    margin: 0px;
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(25,29,40);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#title{
+    color: rgb(108,202,203);
+    font-size:xx-large ;
+}
+.upperSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh 1vw ;
+    height: 40vh;
+}
+.upperSectionElement{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    width: 10vw;
+    height: 20vh;
+}
+.upperSectionElement h1{
+  
+    color: rgb(108,202,203);
+}
+.upperSectionElement h3,h4{
+    font-weight: 400;
+    color: grey;
+}
+.mainElement
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mainElement h3{
+    font-weight: 400;
+ color: grey;
+}
+.mainElement h1{
+  font-weight:bolder;
+  font-size: 10vh;
+  color: aliceblue;
+  height: 15vh;
+}
+
+/* stylintg buttons start */
+button
+{
+    border: 1px  ;
+    border-radius: 1vh;
+    background-color: rgb(46,50,65);
+    color: aliceblue;
+    font-size: large;
+    padding: 0.54vh 1vw;
+}
+
+/* styling ends here */
+/* styling lower section begins*/
+.index{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    padding:0 1vw;
+    color: grey;
+}
+.dataFeed{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+    text-align: center;
+    color:aliceblue
+}
+.lowerDataFeed{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: aliceblue;
+}
+.DataFeed{
+    background-color: rgb(46,50,65);
+    width: 6vw;
+    padding: 1vh 1vw;
+    border-radius: 1vh;
+    width: 98vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    /* align-items: center; */
+    text-align: center;
+}
+.Serial{
+   width: 5vw;
+}
+.Platform{
+    width: 15vw;
+}
+.LTP{
+    width: 15vw;
+}
+.BSP{
+    width: 15vw;
+}
+.diff{
+    width: 15vw;
+    color: red;
+}
+.Sav{
+    width: 15vw;
+    color: red;
+}
+#telegram{
+ background-color: rgb(61,198,193);
+}
